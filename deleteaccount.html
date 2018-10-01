@@ -1,0 +1,25 @@
+<html>
+<body>
+<?php
+	$conn = mysqli_connect("localhost","root","",'ferraris');
+	if(mysqli_connect_errno())
+	{
+		echo "Failed";
+	}
+	
+	$sql = "DELETE FROM accounts WHERE firstname = '$_POST[firstname]'";
+	$sql = "DELETE FROM accounts WHERE surname = '$_POST[surname]'";
+	$sql = "DELETE FROM accounts WHERE email = '$_POST[email]'";
+	$sql = "DELETE FROM accounts WHERE password = '$_POST[password]'";
+	
+	if(!mysqli_query($con,$sql))
+	{
+		die('Error: ' . mysqli_error());
+	}
+	else
+	{
+		echo "Account deleted"
+	}
+	
+	mysqli_close($con);
+?>

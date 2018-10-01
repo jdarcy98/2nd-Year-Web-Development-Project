@@ -1,0 +1,33 @@
+<!Doctype html>
+
+<html>
+<head>
+	<title>Log In</title>
+	<link rel = "stylesheet" type="text/css" href = "styletakeaway.css"/>
+</head>
+<body>
+
+	<!--This page allows a user to sign in with the e-mail and password they used to sign up-->
+	
+	<div id = "top" ><a href="takeaway.html"><strong>Ferrari's Takeaway</strong></a></div>
+	
+	<div id ="navbar">
+		<p class="horizontal"><a href="menu.php">Menu</a></p>
+		<p class="horizontal"><a class="active" href="logintakeaway.html">Log In</a></p>
+		<p class="horizontal"><a href="signup.html">Sign Up/Delete</a></p>
+		<p class="horizontal"><a href="contact.html">Contact</a></p>
+	</div>
+
+	<div id ="logindiv">
+		<form align="center" action="logintakeaway.php"  method="post" id="loginform">
+		E-mail:
+		<input type="email" id="email" name="email" required placeholder="Please enter your e-mail">
+		<br><br>
+		Password:
+		<input type="password" id="password" name="password" required placeholder="Please enter password">
+		<br><br>
+		<input type="Submit" value="Submit"/>
+		</form>
+	</div>
+</body>
+</html>

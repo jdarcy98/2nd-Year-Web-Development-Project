@@ -1,0 +1,50 @@
+<!Doctype html>
+
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel = "stylesheet" type="text/css" href = "styletakeaway.css"/>
+</head>
+<body>
+
+	<!--This page allows a new user to sign up to the takeaway's account service,
+		or delete an existing account-->
+		
+	<div id = "top" ><a href="takeaway.html"><strong>Ferrari's Takeaway</strong></a></div>
+	
+	<div id ="navbar">
+		<p class="horizontal"><a href="menu.php">Menu</a></p>
+		<p class="horizontal"><a href="logintakeaway.html">Log In</a></p>
+		<p class="horizontal"><a class="active" href="signup.html">Sign Up/Delete</a></p>
+		<p class="horizontal"><a href="contact.html">Contact</a></p>
+	</div>
+	
+	<div id="signupdiv">
+		<form align="center" action="signuptakeaway.php" method="post" id="signupform">
+			<p><strong><u>Please enter your details to <font color="red"><i>sign up </i></font>and avail of some exclusive offers:</u></strong></p>
+			<p>First Name:
+			<input type="text" id="firstname" name="firstname" required placeholder="Please enter your first name"></p>
+			<p>Surname:
+			<input type="text" id="surname" name="surname" required placeholder="Please enter your surname"></p>
+			<p>E-mail:
+			<input type="email" id="email" name="email" required placeholder="Please enter your email" ></p>
+			<p>Password:
+			<input type="password" id="password" name="password" required placeholder="Please enter password">
+			<p><input type="submit" value="Sign Up"><font color="red"><i> Make sure your details are correct</i></font>
+		</form>
+	</div>
+	
+	<div id="deletediv">
+		<form align="center" action="deleteaccount.php" method="post" id="signupform">
+		<p><strong><u>Please enter your details to <font color="red"><i>delete</i></font> your account:</strong></u></p>
+		<p>First Name:
+		<input type="text" id="firstname" name="firstname" required placeholder="Please enter your first name"></p>
+		<p>Surname:
+		<input type="text" id="surname" name="surname" required placeholder="Please enter your surname"></p>
+		<p>E-mail:
+		<input type="email" id="email" name="email" required placeholder="Please enter your email" ></p>
+		<p>Password:
+		<input type="password" id="password" name="password" required placeholder="Please enter password">
+		<p><input type="submit" value="Delete"><font color="red"><i> Make sure your details are correct</i></font>
+</body>
+</html>

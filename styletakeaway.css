@@ -1,0 +1,135 @@
+/*The stylesheet is linked into each page to implement the menu and navigation bar,
+  as well as other important aspects of the respective pages*/
+
+#top
+{
+	width: 100%;
+	position: relative;
+	background-color: red;
+	font-size: 100px;
+	color: white;
+	text-align: center;
+	float: right;
+	font-family: Helvetica, Arial, sans-serif;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+#top a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#navbar
+{
+	display: inline;
+	background-color: #333;
+	overflow:hidden;
+}
+
+#navbar a
+{
+	display: inline;
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	position: relative;
+	width: 22.6%;
+	height: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: black;
+}
+
+#horizontal
+{
+	display: inline;
+	background-color: black;
+}
+
+#navbar a:hover
+{
+	background-color: grey;
+	color: black;
+}
+
+#navbar a.active
+{
+	background-color: grey;
+    color: white;
+}
+
+#para1
+{
+	padding-left: 50px;
+    width: 920px;
+}
+
+.paragraph1
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	color: red;
+}
+
+.align1
+{
+	float: left;
+	height: 250px;
+	width: 450px;
+}
+
+.pg2
+{
+    font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+}
+
+#logindiv
+{
+	display: table;
+	width: 100%;
+}
+
+#loginform
+{
+	font-family: Helvetica, Arial, sans-serif;
+	margin-top: 175px;
+}
+
+#signupdiv
+{
+	display: table;
+	width: 100%;
+}
+
+#signupform
+{
+	font-family: Helvetica, Arial, sans-serif;
+	margin-top: 100px;
+}
+
+.pgcontact
+{
+	display: table;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	float: center;
+	width: 100%;
+}
+
+.align2
+{
+	padding-left: 550px;
+}
+
+#menu
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	margin-top: 10px;
+	text-align: center;
+}
